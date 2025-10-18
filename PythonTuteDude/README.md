@@ -54,49 +54,86 @@ This repository contains Python solutions for two fundamental programming tasks:
 
 ***
 
-## 🚀 Task 1: Check if a Number is Even or Odd
+🚀 Task 1: Check if a Number is Even or Odd
+This program takes an integer from the user and determines whether it is an even or an odd number using the modulo operator (%).
 
-This program takes an integer from the user and determines whether it is an even or an odd number using the modulo operator (`%`).
-
-### Problem Statement
-
+📌 Problem Statement
 Write a Python program that:
-1. Takes an integer input from the user.
-2. Checks whether the number is even or odd using an `if-else` statement.
-3. Displays the result accordingly.
 
-### Python Solution (`Task1_Even_Odd.py`)
+Takes an integer input from the user.
 
-```python
-num = int(input('Enter a number: '))
+Checks whether the number is even or odd using an if-else statement.
 
-if (num % 2) != 0:
-    print(num, ' is an odd number')
-else:
-    print(num, ' is an even number')
+Displays the result accordingly.
 
-# Python Task: Sum of Integers from 1 to 50 Using a Loop
+🛠️ How to Run
+Clone this repository or download the Python file (module3_task1.py).
 
-This program demonstrates how to use a `for` loop in Python to calculate the cumulative sum of a fixed range of integers.
+Open a terminal or run the script in your IDE.
 
-***
+Enter an integer when prompted.
 
-## 🔢 Task: Sum of Integers from 1 to 50
+View whether the number is even or odd.
 
-### Problem Statement
-
+➕ Task: Sum of Integers from 1 to 50
+📌 Problem Statement
 Write a Python program that:
-1. Uses a **`for` loop** to iterate over numbers from **1 to 50** (inclusive).
-2. Calculates the sum of all integers in this range.
-3. Displays the final sum.
 
-### Python Solution (`sum_calculator.py`)
+Uses a for loop to iterate over numbers from 1 to 50 (inclusive).
 
-The code initializes a total sum to zero and then uses the `range(1, 51)` function to iterate through the numbers 1, 2, 3, ... up to 50.
+Calculates the sum of all integers in this range.
 
-```python
-sum_total = 0
-for i in range(1, 51):
-    sum_total += i
+Displays the final sum.
 
-print('The sum of numbers from 1 to 50 is:', sum_total)
+🚀 How to Run
+Clone this repository or download the Python file (module3_task2.py).
+
+Open a terminal or run the script in your IDE.
+
+The program will automatically calculate and display the sum of numbers from 1 to 50—no input required.
+
+Task 1: Calculate Factorial Using a Function
+📌 Problem Statement
+Write a Python program that:
+
+Defines a function named factorial that takes a number as input.
+
+Calculates the factorial using recursion or a loop.
+
+Returns the calculated factorial.
+
+Calls the function with a sample number and prints the result.
+
+🚀 How to Run
+Clone this repository or download the Python file.
+
+Open a terminal or run the script in your IDE.
+
+Enter a number when prompted.
+
+View the calculated factorial output.
+
+Task 2: Using the Math Module for Calculations
+📌 Problem Statement
+Write a Python program that:
+
+Asks the user for a number as input.
+
+Uses the math module to calculate:
+
+The square root of the number
+
+The natural logarithm (log base e) of the number
+
+The sine of the number (in radians)
+
+Displays the calculated results.
+
+🚀 How to Run
+Clone this repository or download the Python file.
+
+Open a terminal or run the script in your IDE.
+
+Enter a number when prompted.
+
+View the calculated square root, logarithm, and sine values.
